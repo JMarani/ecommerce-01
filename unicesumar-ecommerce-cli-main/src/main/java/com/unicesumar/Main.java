@@ -154,7 +154,7 @@ public class Main {
         System.out.println("Usuário encontrado: " + usuario.getName());
 
         // 2. Buscar produtos por IDs
-        System.out.print("Digite os IDs dos produtos (separados por vírgula): ");
+        System.out.print("Digite o ID do produto: ");
         String idsInput = scanner.nextLine();
 
         List<UUID> produtosIds = new ArrayList<>();
